@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>洪泽湖芦苇研究</title>
+    <style>
+        /* CSS样式部分 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", "SimHei", sans-serif;
+        }
+
+        body {
+            background-color: #f5f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #2c7873;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            margin-bottom: 30px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.2em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #2c7873;
+            margin: 25px 0 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #6fb3b8;
+        }
+
+        h3 {
+            color: #388087;
+            margin: 20px 0 10px;
+        }
+
+        .section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .image-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-caption {
+            font-style: italic;
+            color: #666;
+            margin-top: 8px;
+            font-size: 0.9em;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .highlight {
+            background-color: #f0f7f4;
+            padding: 15px;
+            border-left: 4px solid #6fb3b8;
+            margin: 15px 0;
+            border-radius: 0 5px 5px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .location-info {
+            display: inline-block;
+            background-color: #e8f4f3;
+            padding: 8px 15px;
+            border-radius: 20px;
+            margin: 10px 0;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            header {
+                padding: 20px 0;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .section {
+                padding: 15px;
+            }
+        }
+        /* 在原有CSS末尾添加以下样式 */
+
+/* 多图容器样式 */
+.multi-image-container {
+    margin: 25px 0;
+    text-align: center;
+}
+
+.image-group {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.image-wrapper {
+    flex: 0 1 48%;
+    min-width: 300px;
+    margin-bottom: 15px;
+}
+
+.image-wrapper img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+#he{
+    text-align:center;
+}
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>洪泽湖芦苇湿地生态系统研究</h1>
+        <p id="he">探索芦苇湿地在生态保护中的关键作用</p>
+    </header>
+
+    <section class="section">
+        <h2>研究背景与基础数据</h2>
+        <div class="location-info">
+            研究区域坐标：118.327°E，33.257°N | 宿迁市泗洪县
+        </div>
+        <p>本研究以洪泽湖芦苇分布区为核心，通过整合气候水文数据（年均温、降水、风力、天气等），结合GPS定点土壤采样和pH值测定，构建洪泽湖湿地的生态本底数据库。</p>
+
+        <div class="multi-image-container">
+            <div class="image-group">
+                <div class="image-wrapper">
+                    <img src="image/weather1.png" alt="洪泽湖月平均气温降水图">
+                    <div class="image-caption">洪泽湖月平均气温降水图</div>
+                </div>
+                <div class="image-wrapper">
+                    <img src="image/weather2.jpg" alt="洪泽湖历史天气综述">
+                    <div class="image-caption">洪泽湖历史天气综述</div>
+                </div>
+            </div>
+            <div class="image-group">
+                <div class="image-wrapper">
+                    <img src="image/weather3.jpg" alt="洪泽湖历史风力统计" width="300" height="400">
+                    <div class="image-caption">洪泽湖历史风力统计</div>
+                </div>
+                <div class="image-wrapper">
+                    <img src="image/weather4.png" alt="洪泽湖历史天气天数">
+                    <div class="image-caption">洪泽湖历史天气天数</div>
+                </div>
+            </div>
+        </div>
+
+        <p>基于自然地理环境因子分析，我们发现宿迁市泗洪县具备芦苇生长的优势条件，这些条件也为湿地保护提供了有利基础。洪泽湖作为中国五大淡水湖之一，其湿地生态系统具有重要的研究价值。</p>
+    </section>
+
+    <section class="section">
+        <h2>芦苇湿地的生态功能</h2>
+        <p>芦苇作为湿地生态系统的关键物种，在维持湿地健康、稳定环境以及抑制生态退化方面扮演着不可或缺的角色。其密集丛生的特性及其强大的生理生态功能，使其成为湿地抵御环境压力和退化的天然屏障。</p>
+
+        <h3>物理稳固性</h3>
+        <p>芦苇拥有极其发达的根系网络，包括水平生长的根状茎和深入土壤的须根，如同为湿地编织了一张巨大的地下"锚固网"。这张网能有效抓牢土壤颗粒，显著增强土壤的抗侵蚀能力，尤其是在水位波动频繁或水流冲刷强烈的区域。</p>
+
+        <h3>水质净化功能</h3>
+        <p>芦苇发挥着高效的"天然净化器"功能。其植株高大、生物量大，生长过程中需要吸收大量的氮、磷等营养物质。通过吸收溶解在水体和底泥中的无机氮磷化合物，芦苇直接减少了水体中的富营养化物质，抑制了藻类过度繁殖（水华）。</p>
+
+        <div class="image-container">
+            <!-- 请在此处插入芦苇湿地生态系统图片 -->
+            <img src="image/2.jpg" alt="芦苇湿地生态系统" width="600" height="500">
+            <div class="image-caption">芦苇湿地生态系统示意图</div>
+        </div>
+        <h3>生物多样性支持</h3>
+        <p>芦苇湿地为众多野生动植物提供了宝贵的栖息地和庇护所。茂密的芦苇丛形成了复杂的立体空间结构，为水鸟（如鹭、鹳、野鸭等）提供了理想的筑巢、隐蔽和育雏场所；水下部分则为鱼类、两栖类、底栖动物和昆虫幼虫提供了觅食、产卵和躲避天敌的空间。</p>
+
+        <h3>水文调节与碳汇功能</h3>
+        <p>芦苇湿地还具有强大的水文调节能力。其茂密的植被能有效截留降水，减缓地表径流速度，增加雨水下渗，起到滞洪蓄洪的作用，减轻下游洪涝灾害风险。同时，芦苇作为高效的光合作用植物，通过固定大气中的二氧化碳并将其转化为有机质存储在植株和土壤中，是重要的碳汇。</p>
+
+        <div class="highlight">
+            <p>综上所述，芦苇通过其强大的根系固土护岸、高效吸收净化污染物、支撑复杂生物群落、调节区域水文循环以及固碳等多种生态功能，构筑了湿地抵抗退化的多重防线。健康的芦苇湿地是维持区域生态平衡、保护生物多样性、改善水质环境和增强生态系统韧性的关键。</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>人文自然耦合与政策响应</h2>
+        <p>洪泽湖的水域变迁通过遥感影像清晰呈现了生态退化的严峻现实。自清中期以来，该湖经历了显著萎缩，呈现出"由四周向中心收缩"的空间特征，其中西南湖域形态变化最为剧烈。</p>
+
+
+            <!-- 请在此处插入洪泽湖水域变迁遥感影像 -->
+        <div class="image-container">
+            <!-- 请在此处插入洪泽湖水域变迁遥感影像 -->
+            <img src="image/水域.gif" alt="洪泽湖水域变迁遥感影像" width="300" height="400">
+            <div class="image-caption">图3：洪泽湖水域变迁遥感影像对比</div>
+        </div>
+        <p>渔民的口述历史为这一生态危机提供了生动注脚。"岸边的滩涂全被开发成鱼塘蟹塘了，水草、螺蛳越来越少！"这种开发模式直接造成洪泽湖多种鱼类物种消失，生态系统濒临崩溃。</p>
+
+        <p>面对持续萎缩的湖域，芦苇作为传统生态屏障虽发挥过重要作用，但其局限性在系统压力下日益凸显：面对大规模围垦时难以阻止生境碎片化。</p>
+
+        <h3>政府政策与保护措施</h3>
+        <p>为扭转生态恶化趋势，政府实施了系统性治理政策：</p>
+        <ul>
+            <li>生态移民工程将湖区居民迁出生态敏感区</li>
+            <li>颁布全面禁渔令，终止传统捕捞作业</li>
+            <li>"退渔还湿"工程拆除养殖围网</li>
+            <li>结合芦苇等湿地植物进行生态修复</li>
+        </ul>
+
+        <div class="image-container">
+            <!-- 请在此处插入土地利用变化图 -->
+            <img src="image/土地.gif" alt="宿迁市土地利用变化图" width="300" height="400">
+            <div class="image-caption">宿迁市土地利用变化图（2016年前后对比）</div>
+        </div>
+
+        <p>土地利用变化图清晰佐证了这些政策的落地效果：2016年后，湖区养殖用地明显减少，自然湿地斑块逐渐恢复连通性。这些措施标志着从资源掠夺型开发向可持续发展模式的根本转变，为评估湿地恢复效果提供了空间依据。</p>
+    </section>
+
+    <footer>
+        <p>© 2025 洪泽湖·绿|数据采集时间：2025年7-8月</p>
+        <p>内容提供：王馨阳 南师大地科院</p>
+        <p>网页制作：张艺璠 南师大计科院</p>
+    </footer>
+</div>
+</body>
+</html>
